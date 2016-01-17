@@ -32,8 +32,10 @@ if (!file.exists("./UCI HAR Dataset")){
 }
 # read measures names
 measuresNames <- read.csv2("./UCI HAR Dataset/features.txt", sep="", header = FALSE, col.names = c("Id", "Name"))$Name
-measuresNames <- sub("\\(\\)", "", measuresNames)
-measuresNames <- sub("-", "_", measuresNames)
+#To avoid incuding meanFreq in output data
+measuresNames <- gsub("meanFreq", "freq", measuresNames)
+measuresNames <- gsub("\\(\\)", "", measuresNames)
+measuresNames <- gsub("-", "_", measuresNames)
 # Read activity names
 activityNames <- read.csv2("./UCI HAR Dataset/activity_labels.txt", sep="", header = FALSE, col.names = c("Id", "Name"))$Name
 
