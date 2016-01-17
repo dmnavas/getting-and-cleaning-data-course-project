@@ -5,12 +5,12 @@
 ### Activity Identification variables
 
 1. activity, the activity used to get signal data. Possible values are: 
-	1.a WALKING
-	1.b WALKING_UPSTAIRS
-	1.c WALKING_DOWNSTAIRS
-	1.d SITTING
-	1.e STANDING
-	1.f LAYING
+	+ WALKING
+	+ WALKING_UPSTAIRS
+	+ WALKING_DOWNSTAIRS
+	+ SITTING
+	+ STANDING
+	+ LAYING
 	
 2. subject, id of the subject was measured to get signal data. 
 
