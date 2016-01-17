@@ -1,5 +1,5 @@
 # getting-and-cleaning-data-course-project
-Data science specialization Getting and Cleaning Data Course Project
+##Data science specialization Getting and Cleaning Data Course Project
 
 Steps to get tidy data set:
 
@@ -10,6 +10,6 @@ Steps to get tidy data set:
 
 3. Call source("run_analysis.R") to run the script which tidies dataset
 
-The cookbook file is called CookBook.md
+The coodebook file is called CoodeBook.md
 
 
