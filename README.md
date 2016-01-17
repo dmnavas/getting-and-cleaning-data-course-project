@@ -10,6 +10,6 @@ Steps to get tidy data set:
 
 3. Call source("run_analysis.R") to run the script which tidies dataset
 
-The coodebook file is called CoodeBook.md
+The codebook file is called CodeBook.md
 
 
